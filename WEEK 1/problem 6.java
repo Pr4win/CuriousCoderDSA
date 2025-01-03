@@ -1,4 +1,4 @@
-//write a program which takes two values x and y.prints x for y numbern of times.
+//write a program to take x and print multiples of x till 1000
 /* Input: 100
    Output:100 200 300 400 500 600 700 800 900 1000  */
 import java.util.Scanner;
