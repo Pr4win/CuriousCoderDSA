@@ -43,7 +43,7 @@ class Main{
         // Merge the temporary arrays back into the original array
         int i=0,j=0,k=low;
         while(i<n1 && j<n2){
-            if(leftArray[i]<rightArray[j]){
+            if(leftArray[i]<=rightArray[j]){
                 a[k]=leftArray[i];
                 i++;
             }else{
